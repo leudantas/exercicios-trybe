@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+.headers {
+    color: beige;
+    background-color: rgb(151, 96, 28);
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+strong {
+    color: rgb(151, 96, 28);
+}
+
+link {
+    color: indigo;
+    text-decoration: underline;
+}
