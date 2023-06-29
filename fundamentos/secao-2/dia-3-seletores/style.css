@@ -24,6 +24,9 @@ link {
 
 }
 
-.resumo {
+.Habilidades {
     font-size: large;
+    height: 200px;
+    overflow: auto; 
+    /*quando o conteúdo excede o tamanho da div, podemos colocá-lo em overflow: auto, pra ter scroll automático na vertical e horizontal. para fazer de um só, pode usar overflow-y na vertical e overflow-x na horizontal.*/
 }
