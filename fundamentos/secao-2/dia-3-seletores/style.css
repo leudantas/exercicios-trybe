@@ -16,6 +16,7 @@ strong {
 h3:hover /*Uma pseudoclasse é indicada por dois pontos (:) e especifica um estado especial do elemento*/{
     background-color: purple ;
     color: whitesmoke;
+    transition: 500ms; 
 }
 
 link {
