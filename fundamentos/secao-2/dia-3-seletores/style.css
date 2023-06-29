@@ -24,9 +24,22 @@ link {
 
 }
 
-.Habilidades {
+.habilidades {
     font-size: large;
     height: 200px;
     overflow: auto; 
     /*quando o conteúdo excede o tamanho da div, podemos colocá-lo em overflow: auto, pra ter scroll automático na vertical e horizontal. para fazer de um só, pode usar overflow-y na vertical e overflow-x na horizontal.*/
+}
+
+#arena {
+    width: 500px;
+    position: absolute;
+    padding: 24px;
+}
+
+#Azir {
+    width: 150px;
+    position: absolute;
+    top: 1042px;
+    left: 200px;
 }
