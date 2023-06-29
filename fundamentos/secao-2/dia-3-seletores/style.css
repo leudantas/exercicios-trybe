@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+
+.headers {
+    color: beige;
+    background-color: rgb(151, 96, 28);
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+strong {
+    color: rgb(151, 96, 28);
+}
+
+link {
+    color: indigo;
+    text-decoration: underline;
+}
+
+.Shurima {
+    text-decoration:underline;
+    font-weight: bold;
+
+}
+
+.habilidades {
+    font-size: large;
+    height: 200px;
+    overflow: auto; 
+    /*quando o conteúdo excede o tamanho da div, podemos colocá-lo em overflow: auto, pra ter scroll automático na vertical e horizontal. para fazer de um só, pode usar overflow-y na vertical e overflow-x na horizontal.*/
+}
+
+#arena {
+    width: 500px;
+    position: absolute;
+    padding: 24px;
+    z-index: 1; /*determina a posição do elemento na página. útil quando colocamos componentes um em cima do outro*/
+}
+
+#Azir {
+    width: 150px;
+    position: absolute; /*para fixar um elemento na mesma posição na página, position: fixed*/
+    top: 1042px;
+    left: 200px;
+    z-index: 2;
+}
+
+.azirzinho {
+    width: 200px;
+    float: right; /*Torna um objeto flutuante - ele se ajusta ao texto e ao resto do conteúdo na página*/
+    margin-left: 8px;
+}
