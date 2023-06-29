@@ -13,6 +13,11 @@ strong {
     color: rgb(151, 96, 28);
 }
 
+h3:hover /*Uma pseudoclasse é indicada por dois pontos (:) e especifica um estado especial do elemento*/{
+    background-color: purple ;
+    color: whitesmoke;
+}
+
 link {
     color: indigo;
     text-decoration: underline;
