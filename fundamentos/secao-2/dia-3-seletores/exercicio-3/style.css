@@ -1,0 +1,44 @@
+div:hover {
+    border: 6px solid black;
+  }
+  /* Faça cada div ter uma cor própria. */
+  div:nth-of-type(1) /*essa função determina o tipo do enésimo número e depois traz o número entre parênteses. Ou seja: aqui vamos aplicar o background-color para o primeiro elemento div que aparecer, pois o número que colocamos é o 1*/{
+    background-color: red;
+  }
+  div:nth-of-type(2) {
+    background-color: green;
+  }
+  div:nth-of-type(3) {
+    background-color: yellow;
+  }
+  div:nth-of-type(4) {
+    background-color: grey;
+  }
+  div:nth-of-type(5) {
+    background-color: lightblue;
+  }
+
+  div:nth-of-type(1) > h3 /*o sinal de maior está dizendo que esse h3 é filho da div em questão. Ou seja: pro elemento h3 que é filho da div1, a cor será purple*/ {
+    color: purple;
+  }
+  /*Aqui estamos pegando a segunda div e o primeiro h3 e assim por diante nas próximas div */
+  div:nth-of-type(2) > h3 {
+    color: green 
+  }
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
+  /* Faça a terceira div ser maior que as demais. */
+  div:nth-of-type(3) {
+    height: 100px;
+  }
+  /* Deixe as tags ímpares <h3> com o texto em itálico. */
+  div:nth-child(odd) h3 {
+    font-style: italic
+  }
