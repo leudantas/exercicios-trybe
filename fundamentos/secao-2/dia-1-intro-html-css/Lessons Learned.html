@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Lessons Learned</title>
+<link rel="stylesheet" href="./Lessons Learned_files/style.css"></head>
+
+<body>
+
+<header id="cabecalho">
+  <h1 id="titulo">Lessons Learned</h1>
+  <h2 id="assinatura">por Maria Letícia Dantas</h2>
+</header>
+
+<main>
+
+<article>
+  <h1>Trajetória de estudos</h1>
+  <section id="artigo">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto ad, ullam perferendis placeat error consequatur eveniet, quo veniam explicabo quam ducimus sequi nobis, nihil tempore. Quasi, iusto recusandae? Officiis, explicabo.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto ad, ullam perferendis placeat error consequatur eveniet, quo veniam explicabo quam ducimus sequi nobis, nihil tempore. Quasi, iusto recusandae? Officiis, explicabo.
+  </section>
+
+  <section id="licoes">
+  <div class="listas">
+  <h2>Lições aprendidas</h2>
+  <ol id="licoes_aprendidas">
+    <li>Lição 1</li>
+    <li>Lição 2</li>
+    <li>Lição 3</li>
+    <li>Lição 4</li>
+    <li>Lição 5</li>
+    <li>Lição 6</li>
+    <li>Lição 7</li>
+    <li>Lição 8</li>
+    <li>Lição 9</li>
+    <li>Lição 10</li>
+  </ol>
+  </div>
+  
+  <div class="listas">
+  <h2>Lições a aprender</h2>
+  <ul id="licoes_a_aprender">
+    <li>Licão 1</li>
+    <li>Lição 2</li>
+    <li>Lição 3</li>
+    <li>Lição 4</li>
+    <li>Lição 5</li>
+    <li>Lição 6</li>
+    <li>Lição 7</li>
+    <li>Lição 8</li>
+    <li>Lição 9</li>
+    <li>Lição 10</li>
+  </ul>
+  </div>
+  </section>    
+
+</article>
+<aside id="sobre_mim">
+
+  <h1>Sobre mim 🔮</h1>
+  <img id="minha_foto" src="./Lessons Learned_files/perfil-leticia.jpg" alt="Foto de perfil da Letícia.">   
+  
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore quia ea non error ex asperiores molestias libero molestiae saepe quam debitis veritatis et voluptates magni, est, culpa doloribus vero.</p>
+
+  <h4>Redes sociais:</h4>
+  <ul id="redes">
+    <li><a href="http://127.0.0.1:5500/twitter.com.br">Twitter</a></li>
+    <li><a href="http://127.0.0.1:5500/twitter.com.br">Twitter</a></li> 
+  </ul>
+
+
+</aside>
+
+</main>
+
+
+<footer id="rodape">
+  Desenvolvido por <a href="https://linkedin.com/in/leudantas">Maria Letícia Dantas</a> 😀 
+  </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

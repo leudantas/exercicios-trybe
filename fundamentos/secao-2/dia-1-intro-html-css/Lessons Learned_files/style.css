@@ -1,0 +1,126 @@
+/* Cor de fundo da página */
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: sticky;
+    padding: 24px 32px;
+    z-index: 1;
+}
+
+#cabecalho {
+    background-color: rgb(157, 29, 104);
+    color: rgb(255, 255, 255);
+    height: 64px;
+}
+
+#titulo {
+    font-size: 40px;
+    padding: 0px 16px 0px 0px;
+}
+
+#assinatura {
+    position: relative;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 24px;
+    text-align: end;
+}
+
+/* Corpo da página */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px;
+    width: 100%;
+}   
+
+main h1, main h2, h4, p, ol, ul, section#artigo {
+    margin: 0px 0px 16px 0px;
+}
+
+main h1 {
+    font-size: 32px;
+    color: rgb(157, 29, 104);
+}
+
+main p {
+    font-size: 16px;
+}
+
+#sobre_mim {
+    display: flex;
+    flex-direction: column;
+    max-width:250px;
+}
+
+#minha_foto {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+    margin: 0px 0px 24px 0px;
+}
+
+ol {
+    display: inline-block;
+}
+
+#licoes {
+    display: flex;
+    flex-direction: row;
+}
+
+#licoes_aprendidas {
+    margin-right: 32px;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+}
+
+.listas:nth-of-type(1) {
+    margin-right: 48px ;
+}
+
+ul#redes {
+    padding-left: 0px;
+}
+
+#redes li {
+   display:inline-flex;
+   flex-direction: row;
+   align-items: start;
+}
+
+#rodape {
+    background-color: rgb(220, 222, 223);
+    position: absolute;
+    color: rgb(61, 59, 59);
+    border-radius: 6px 6px 0px 0px;
+    bottom: 0px;
+    width: max-content;
+    height: 48px;
+    padding: 24px 32px 24px 32px;
+}
+
+
+
+article {
+    margin-right: 48px;
+}
