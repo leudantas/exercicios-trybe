@@ -108,12 +108,12 @@ console.log(numPar);
 //Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS (Instituto Nacional do Seguro Social) e o IR (Imposto de Renda).
 //⭐️ A notação para um salário de R$1.500,10, por exemplo, deve ser 1500.10.
 
-/* let salarioBruto = 3500.00
+let salarioBruto = 3500.00
 let salarioLiquido;
 let impostoINSS;
 let impostoRenda;
 
-switch (salarioBruto) {
+switch (true) {
     case (salarioBruto <= 1556.94):
         impostoINSS = (salarioBruto * 0.08)
         break;
@@ -130,9 +130,9 @@ switch (salarioBruto) {
         break;
 }
 
-console.log(impostoINSS); */
+console.log(impostoINSS);
 
-let salarioBruto = 3500.00
+/* let salarioBruto = 3500.00
 let impostoINSS;
 
 if (salarioBruto <= 1556.94) {
@@ -167,4 +167,4 @@ console.log(`O salário bruto é R$${salarioBruto}
 O imposto INSS é R$${impostoINSS}
 O salário base é R$${salarioBase}
 O imposto de renda é R$${impostoRenda}
-O salário líquido é R$${salarioLiquido}`);
+O salário líquido é R$${salarioLiquido}`); */
