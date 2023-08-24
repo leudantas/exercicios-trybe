@@ -10,9 +10,9 @@ const createItem = (name, unit, price, quantity) => {
     }
     return {
       name: name,
-      quantity: quantity,
       unit: unit,
       price: price,
+      quantity: quantity,
     };
   }
   module.exports = createItem;
